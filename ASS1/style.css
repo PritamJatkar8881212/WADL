@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #f9f9f9;
+    height: 25vh;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(96, 50, 50);
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2em;
+    color: #2f2f2f;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.header p {
+    font-size: 1.5em;
+}
+
+
+.experience,
+.best-dishes,
+.reviews {
+    padding: 60px 0;
+}
+
+.experience .card,
+.best-dishes .card,
+.reviews .review-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    z-index: 999;
+}
+
+.footer {
+    margin-top: 50px;
+    padding: 20px 0;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+}
